@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+@font-face {
+    font-family: 'KoPubDotumMedium';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/KoPubDotumMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
-    font-family: 'Montserrat';
+    font-family: 'KoPubDotumMedium';
 }
 
 body,h1,h2 {
@@ -9,20 +14,16 @@ body,h1,h2 {
     padding:0px;
 }
 
-
 body {
     min-width: fit-content;
 }
 
 h1 {
-    font-size:36px;
-    font-weight: bold;
-    font-style: italic;
+    font-size: 32px;
 }
 
-
 h2 {
-    font-size:20px;
+    font-size: 24px;
     color:#282828;
     font-weight: lighter;
     margin-bottom: 16px;
@@ -30,29 +31,25 @@ h2 {
     padding-bottom: 5px;
 }
 
-.name-text {
-    font-size:16px;
-    color:#7c7c7c;
-    font-weight: bold;
+h3 {
+    font-size: 19px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 12px;
+}
+
+h6  {
+    font-size: 10px;
 }
 
 .about-me-text {
     font-size:10px;
     line-height: 16px;
-}
-
-.mainbox {
-    width: 610px;
-    padding: 30px;
-    margin: 30px;
-    margin-right: auto;
-    margin-left: auto;
-    border: 1px solid #ebebeb;
-    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
-}
-
-.title-box {
-    text-align: right;
 }
 
 section {
@@ -85,13 +82,4 @@ section {
     font-size: 9px;
     color:#282828;
     padding-left:16px;
-}
-
-.sns-img {
-    width:12px;
-    height:12px;
-}
-
-.sns-wrap {
-    text-align:right;
 }
