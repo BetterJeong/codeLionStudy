@@ -7,12 +7,13 @@
 .exper-title {
     width: 60%;
     font-size: 1.05em;
-    font-weight: bold;
     color: #282828;
     float: left;
 }
 
 .year-text{
+    font-weight: lighter;
+    text-align: right;
     font-size: 1em;
     color: #282828;
     float: right;
