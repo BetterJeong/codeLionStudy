@@ -25,25 +25,6 @@
     line-height: 1.8em;
 }
 
-.title-box a {
-    text-decoration : none;
-}
-
-.title-box a:link {
-    color: #2E2E2E;
-    text-decoration: none;
-}
-
-.title-box a:visited {
-    color: #2E2E2E;
-    text-decoration: none;
-}
-
-.title-box a:hover {
-    color: #7c7c7c;
-    text-decoration : none;
-}
-
 .title-img {
     width: 12em;
 }
