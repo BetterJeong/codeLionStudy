@@ -134,15 +134,15 @@
     }
 
     .name-text {
-        font-size: 0.85em;
+        font-size: 0.7em;
     }
 
     .contect {
         line-height: 1.6em;
-        font-size: 0.7em;
+        font-size: 0.4em;
     }
 
     .title-img {
-        width: 8em;
+        width: 7em;
     }    
 }
