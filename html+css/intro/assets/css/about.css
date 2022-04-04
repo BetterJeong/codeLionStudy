@@ -62,7 +62,7 @@
 
 @media (max-width: 767px) {
     .about-text {
-        font-size: 0.7em;
+        font-size: 0.9em;
         line-height: 1.3em;
         margin: 0.8em 1em;
     }
@@ -72,11 +72,13 @@
     }
 
     .exper-title {
-        font-size: 0.7em;
+        font-size: 0.9em;
+        margin-bottom: 0.1em;
+        padding-bottom: 0.4em;
     }
     
     .year-text{
-        font-size: 0.7em;
+        font-size: 0.9em;
     }
 }
 
