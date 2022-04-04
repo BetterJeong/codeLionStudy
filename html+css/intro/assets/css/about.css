@@ -1,0 +1,55 @@
+.about-text {
+    font-size: 1em;
+    line-height: 1.3em;
+    margin: 2em 2.5em;
+}
+
+@media (max-width: 1199px) {
+    .about-text {
+        font-size: 0.9em;
+        line-height: 1.3em;
+        margin: 2em 2.5em;
+    }
+
+    .subtitle {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 991px) {
+    .about-text {
+        font-size: 0.9em;
+        line-height: 1.3em;
+        margin: 2em 2.5em;
+    }
+
+    .subtitle {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-text {
+        font-size: 0.7em;
+        line-height: 1.3em;
+        margin: 2em 2.5em;
+    }
+
+    .subtitle {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-text {
+        font-size: 0.5em;
+        line-height: 1.3em;
+        margin: 2em 2.5em;
+    }
+
+    .subtitle {
+        font-size: 1.5em;
+        padding-bottom: 0.3em;
+        margin-bottom: 0.3em;
+    }
+}
