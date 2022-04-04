@@ -1,10 +1,15 @@
 .title-box {
     text-align: left;
-    margin: 2em;
+    margin: 1.8em;
 }
 
 .title-box td {
-    padding: 0.4em;
+    padding: 0.6em;
+}
+
+.title-box table {
+    margin-left: auto; 
+    margin-right: auto;
 }
 
 .name {
@@ -13,6 +18,7 @@
 }
 
 .contect {
+    font-size: 1.05em;
     text-align: left;
     color: 	#2E2E2E;
     font-weight: lighter;
@@ -39,7 +45,7 @@
 }
 
 .title-img {
-    width: 95%;
+    width: 12em;
 }
 
 .name-text {
@@ -51,4 +57,119 @@
 .sns-img {
     width: 1em;
     display: block;
+}
+
+@media (max-width: 1199px) {
+    .name {
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+
+    .title-box {
+        text-align: left;
+        margin: 1.5em;
+    }
+
+    .name-text {
+        font-size: 1.2em;
+        color:#7c7c7c;
+        margin: 0.6em;
+    }
+
+    .contect {
+        text-align: left;
+        color: 	#2E2E2E;
+        font-weight: lighter;
+        line-height: 1.7em;
+        font-size: 0.9em;
+    }
+    
+    .title-img {
+        width: 11em;
+    }    
+}
+
+@media (max-width: 991px) {
+    .name {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .name-text {
+        font-size: 1em;
+        color:#7c7c7c;
+        margin: 0.6em;
+    }
+
+    .contect {
+        text-align: left;
+        color: 	#2E2E2E;
+        font-weight: lighter;
+        line-height: 1.7em;
+        font-size: 0.95em;
+    }
+
+    .title-img {
+        width: 11em;
+    }    
+}
+
+@media (max-width: 767px) {
+    .title-box {
+        text-align: left;
+        margin: 1em;
+    }
+
+    .name {
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+
+    .name-text {
+        font-size: 0.95em;
+        color:#7c7c7c;
+        margin: 0.6em;
+    }
+
+    .contect {
+        text-align: left;
+        color: 	#2E2E2E;
+        font-weight: lighter;
+        line-height: 1.6em;
+        font-size: 0.85em;
+    }
+
+    .title-img {
+        width: 10em;
+    }    
+}
+
+@media (max-width: 576px) {
+    .title-box {
+        text-align: left;
+        margin: 1em;
+    }
+    
+    .name {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .name-text {
+        font-size: 0.85em;
+        color:#7c7c7c;
+        margin: 0.6em;
+    }
+
+    .contect {
+        text-align: left;
+        color: 	#2E2E2E;
+        font-weight: lighter;
+        line-height: 1.6em;
+        font-size: 0.85em;
+    }
+
+    .title-img {
+        width: 10em;
+    }    
 }
