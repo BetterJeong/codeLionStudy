@@ -62,24 +62,17 @@
 @media (max-width: 1199px) {
     .name {
         font-size: 1.7em;
-        font-weight: bold;
     }
 
     .title-box {
-        text-align: left;
         margin: 1.5em;
     }
 
     .name-text {
         font-size: 1.2em;
-        color:#7c7c7c;
-        margin: 0.6em;
     }
 
     .contect {
-        text-align: left;
-        color: 	#2E2E2E;
-        font-weight: lighter;
         line-height: 1.7em;
         font-size: 0.9em;
     }
@@ -92,19 +85,13 @@
 @media (max-width: 991px) {
     .name {
         font-size: 1.5em;
-        font-weight: bold;
     }
 
     .name-text {
         font-size: 1em;
-        color:#7c7c7c;
-        margin: 0.6em;
     }
 
     .contect {
-        text-align: left;
-        color: 	#2E2E2E;
-        font-weight: lighter;
         line-height: 1.7em;
         font-size: 0.95em;
     }
@@ -116,25 +103,18 @@
 
 @media (max-width: 767px) {
     .title-box {
-        text-align: left;
         margin: 1em;
     }
 
     .name {
         font-size: 1.3em;
-        font-weight: bold;
     }
 
     .name-text {
         font-size: 0.95em;
-        color:#7c7c7c;
-        margin: 0.6em;
     }
 
     .contect {
-        text-align: left;
-        color: 	#2E2E2E;
-        font-weight: lighter;
         line-height: 1.6em;
         font-size: 0.85em;
     }
@@ -146,25 +126,18 @@
 
 @media (max-width: 576px) {
     .title-box {
-        text-align: left;
-        margin: 1em;
+        margin: 0.4em;
     }
     
     .name {
         font-size: 1.2em;
-        font-weight: bold;
     }
 
     .name-text {
         font-size: 0.85em;
-        color:#7c7c7c;
-        margin: 0.6em;
     }
 
     .contect {
-        text-align: left;
-        color: 	#2E2E2E;
-        font-weight: lighter;
         line-height: 1.6em;
         font-size: 0.7em;
     }
